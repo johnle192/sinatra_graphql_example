@@ -28,6 +28,4 @@ class RecipeApp < Sinatra::Base
   post '/example' do
     json result: @params[:result]
   end
-
-
 end
